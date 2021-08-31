@@ -68,15 +68,15 @@
 # print(letters[::2])
 
 
-book = "The Hitchhiker's Guide to the Galaxy"
-booklist = list(book)
-print(booklist)
-print(booklist[0:3])
-print(''.join(booklist[0:3]))    # покажет символы с индекса 0 по индекс 3
-print(''.join(booklist[-6:]))    # покажет символы до конца наченая с символа с индексом -6
-print(''.join(booklist[4:16:1])) # символы с индекса 4 по индекс 16 с шагом 1 (тоесть каждый символ диапозона, без шага получится тот-же результат)
-backwards = booklist[::-1]       #
-print(''.join(backwards))        # покажет все символы в обратном порядке
+# book = "The Hitchhiker's Guide to the Galaxy"
+# booklist = list(book)
+# print(booklist)
+# print(booklist[0:3])
+# print(''.join(booklist[0:3]))    # покажет символы с индекса 0 по индекс 3
+# print(''.join(booklist[-6:]))    # покажет символы до конца наченая с символа с индексом -6
+# print(''.join(booklist[4:16:1])) # символы с индекса 4 по индекс 16 с шагом 1 (тоесть каждый символ диапозона, без шага получится тот-же результат)
+# backwards = booklist[::-1]       #
+# print(''.join(backwards))        # покажет все символы в обратном порядке
 
 
 # phrase = "Don't panic!"
