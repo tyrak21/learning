@@ -48,9 +48,26 @@
 
 
 
-def search4letters(phrase:str, letters:str='aeiou')->set:
-    """returns the vowels found in the specified word"""
-    return set(letters).intersection(set(phrase))
+# def search4letters(phrase:str, letters:str='aeiou')->set:
+#     """returns the vowels found in the specified word"""
+#     return set(letters).intersection(set(phrase))
+#
+# print(search4letters('abcde'))
 
-print(search4letters('abcde'))
+
+
+# numbers = [42, 36, 22]
+# def double (arg):
+#     print('Before: ', arg)
+#     arg = arg * 2
+#     print('After: ', arg)
+# double(numbers)
+#
+# def change (arg):
+#     print('Before: ', arg)
+#     arg.append('More data')
+#     print('After: ', arg)
+# change(numbers)
+
+
 
