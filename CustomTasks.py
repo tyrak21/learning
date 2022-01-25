@@ -36,26 +36,72 @@
 # print(string_to_array(""))
 
 
-def rps(p1, p2):
-     if p1 == p2:
-         win = 0
-     if p1 == 'scissors' and p2 == 'rock':
-         win = 2
-     if p1 == 'paper' and p2 == 'rock':
-         win = 1
-     if p1 == 'rock' and p2 == 'paper':
-         win = 2
-     if p1 == 'scissors' and p2 == 'paper':
-         win = 1
-     if p1 == 'paper' and p2 == 'scissor':
-         win = 2
-     if p1 == 'rock' and p2 == 'scissors':
-         win = 2
-     if win == 0:
-         return "Draw!"
-     if win == 1:
-         return "Player 1 won!"
-     if win == 2:
-         return "Player 2 won!"
-print(rps('rock', 'scissor'))
+# def rps(p1, p2):
+#      if p1 == p2:
+#          win = 0
+#      if p1 == 'scissors' and p2 == 'rock':
+#          win = 2
+#      if p1 == 'paper' and p2 == 'rock':
+#          win = 1
+#      if p1 == 'rock' and p2 == 'paper':
+#          win = 2
+#      if p1 == 'scissors' and p2 == 'paper':
+#          win = 1
+#      if p1 == 'paper' and p2 == 'scissor':
+#          win = 2
+#      if p1 == 'rock' and p2 == 'scissors':
+#          win = 2
+#      if win == 0:
+#          return "Draw!"
+#      if win == 1:
+#          return "Player 1 won!"
+#      if win == 2:
+#          return "Player 2 won!"
+# print(rps('rock', 'scissor'))
+
+# def get_planet_name(id):
+#     switch = {
+#         1: "Mercury",
+#         2: "Venus",
+#         3: "Earth",
+#         4: "Mars",
+#         5: "Jupiter",
+#         6: "Saturn",
+#         7: "Uranus",
+#         8: "Neptune",
+#         }
+#     return switch.get(id, "Planet index" )
+
+
+# # return reverse string
+# def solution(string):
+#     return string[::-1]
+#     pass
+
+
+# def solution(s):
+#     s = ([s[i:i + 2] for i in range(0, len(s), 2)])
+#     listof = []
+#     for i in s:
+#         if str(len(i)) == '2':
+#             listof.append(i)
+#         else:
+#             listof.append(i + '_')
+#     return listof
+#     pass
+
+
+def longest(a1, a2):
+    a3 = a1 + a2
+    a3.split()
+    n = []
+    for i in a3:
+        if i not in n:
+            n.append(i)
+    d = sorted(n)
+    s = ''.join(d)
+    print(s)
+
+longest('aretheyhere', 'yestheyarehere')   #aehrsty
+
 
