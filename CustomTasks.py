@@ -91,17 +91,56 @@
 #     pass
 
 
-def longest(a1, a2):
-    a3 = a1 + a2
-    a3.split()
-    n = []
-    for i in a3:
-        if i not in n:
-            n.append(i)
-    d = sorted(n)
-    s = ''.join(d)
-    print(s)
+# def longest(a1, a2):
+#     a3 = a1 + a2
+#     a3.split()
+#     n = []
+#     for i in a3:
+#         if i not in n:
+#             n.append(i)
+#     d = sorted(n)
+#     s = ''.join(d)
+#     print(s)
+#
+# longest('aretheyhere', 'yestheyarehere')   #aehrsty
 
-longest('aretheyhere', 'yestheyarehere')   #aehrsty
+
+# def make_readable(seconds):
+#
+#     sec = int(seconds)
+#     hour = ( sec // 3600 )
+#     if hour < 10:
+#         #global h
+#         h = '0' + str(hour)
+#     elif hour > 10:
+#         return hour
+#     pre_minute = ( sec - hour * 3600)
+#     minute = pre_minute // 60
+#     if minute < 10:
+#         #global m
+#         m = '0' + str(minute)
+#     elif minute > 10:
+#         return minute
+#     secunds = pre_minute - minute * 60
+#     if secunds < 10:
+#         #global s
+#         s = '0' + str(secunds)
+#     elif secunds > 10:
+#         return secunds
+#     #result = (h + ":" + m + ":" + s)
+#     result = (str(h) + ":" + str(m) + ":" + str(s))
+#     print(str(result))
+#
+#
+# make_readable( '600' )
+
+
+# def string_to_array(str):
+#
+#     return(str.split(sep = ' '))
+#
+# str = "I love arrays they are my favorite"
+#
+# string_to_array(str)
 
 
